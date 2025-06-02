@@ -1,25 +1,25 @@
-# PHP + MySQL Docker Compose Project
+# PHP + MySQL Docker Project
 
-## 🧱 Компоненти
-- **web**: PHP Apache уеб сървър
-- **db**: MySQL база данни
+## 📦 Описание
+Този проект представлява уеб приложение с PHP и база данни MySQL, контейнеризирани с помощта на Docker и Docker Compose.
 
-## 🚀 Стартиране
+---
 
+## 🧱 Структура на проекта
+
+php-mysql-docker-project/
+├── Dockerfile # PHP уеб сървър
+├── docker-compose.yml # Свързване на PHP и MySQL
+├── src/
+│ └── index.php # Начален PHP файл
+└── README.md # Документация
+
+---
+
+## 🚀 Стартиране на проекта
+
+1. Клонирай проекта:
 ```bash
-docker-compose up --build
-```
+git clone https://github.com/SimeonRA/php-mysql-docker-project.git
+cd php-mysql-docker-project
 
-Достъп: [http://localhost:8080](http://localhost:8080)
-
-## 🗂️ Структура
-- `src/index.php`: Основният PHP файл
-- `Dockerfile`: Изгражда образа за PHP сървъра
-- `docker-compose.yml`: Свързва PHP и MySQL в мрежа
-
-## 🧪 Тестване
-Ако всичко работи, ще видиш съобщение: ✅ Connected successfully to MySQL database!
-
-## 📎 Линкове (добави ги след като качиш)
-- GitHub: https://github.com/ТВОЕТО_ПОТРЕБИТЕЛСКО_ИМЕ/php-mysql-docker-project
-- Docker Hub: https://hub.docker.com/r/ТВОЕТО_ПОТРЕБИТЕЛСКО_ИМЕ/php-mysql-docker-project
